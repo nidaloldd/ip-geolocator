@@ -18,5 +18,4 @@ public interface GeoLocator {
             .decoder(new JacksonDecoder())
             .target(GeoLocator.class, "http://ip-api.com/json/");
     }
-
 }
