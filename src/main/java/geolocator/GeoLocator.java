@@ -4,6 +4,8 @@ import feign.Feign;
 import feign.Param;
 import feign.RequestLine;
 import feign.jackson.JacksonDecoder;
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 public interface GeoLocator {
 
